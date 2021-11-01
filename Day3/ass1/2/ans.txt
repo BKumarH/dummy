@@ -1,0 +1,30 @@
+2.
+
+touch abc.txt, def.txt ghi.txt, jkl.txt
+
+mkdir abc def ghi jkl
+
+mv abc.txt abc
+mv def.txt def
+mv ghi.txt ghi
+mv jkl.txt jkl
+
+
+3.
+ touch abc.log.1 def.log.1 ghi.log.1 jkl.log.1 mno.log.1
+ ls
+ date +%d/%m/%Y
+ mv abc.log.1 abc.log.1-`date +%d%m%Y`
+ mv def.log.1 def.log.1-`date +%d%m%Y`
+ mv ghi.log.1 ghi.log.1-`date +%d%m%Y`
+ mv jkl.log.1 jkl.log.1-`date +%d%m%Y`
+ mv mno.log.1 mno.log.1-`date +%d%m%Y`
+ ls
+
+4.
+
+
+
+ 
+ 
+
